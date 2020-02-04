@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Stanciu Bogdan - Adrian">
+    <meta name="keywords" content="Arcon restaurant, delicious restaurant, restaurants near me, corporate event, personal event">
+    <meta name="description" content="Arcon offers you a delicious restaurant, but also a place where you can organize personal and corporate events.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ARCON RESTAURANT</title>
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="#"><img src="images/logo-black.png" alt="logo"></a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li class="active"><a href="#">Events</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>EVENTS</h1>
+        <article>
+            <h2>PERSONAL EVENTS</h2>
+            <h4>The Arcon Event Hall is the perfect setting for organizing any event in your life, whether it’s weddings, baptisms, anniversaries or any other kind of private parties.</h4>
+            <img src="images/photo-1550966871-3ed3cdb5ed0c.jpg" alt="personal events">
+            <p>We offer you a pleasant hall , due to its open space and upstairs floor plan. At the same time, the rectangular tables are placed so that the space is optimized to the maximum, without limiting the access of the guests. The dance floor is in the middle. The venue has a capacity of 200 seats and is ready to satisfy with its décor even the most pretentious tastes! </p>
+            <h3>CAPCITIES</h3>
+            <ul>
+                <li>Private dining – 20</li>
+                <li>Restaurant seating – 120</li>
+            </ul>
+        </article>
+        <article>
+            <h2>CORPORATE EVENTS</h2>
+            <h4>Arcon Restaurant is located on the shores of Lake, in an exceptional natural setting. </h4>
+            <img src="images/event-room-bg.jpg" width="570" alt="corporate events">
+            <p>The location, architecture and versatility of the space, along with the facilities of the event hall (video projector – upstairs, private parking, ultramodern air conditioning systems) and a team of professionals with wide experience, recommends Arcon for organizing conferences, team buildings, presentations of products or corporate Christmas parties / end of year / anniversary of the company or firm you represent.</p>
+            <h3>CAPCITIES</h3>
+            <ul>
+                <li>Private dining – 20</li>
+                <li>Restaurant seating – 60</li>
+                <li>Conference – 18</li>
+            </ul>
+        </article>
+        <section>
+            <h2>Book a event</h2>
+            <h4>Arcon is a premium location that offers high quality event management services for you to enjoy the best party ever!</h4>
+            <ol>
+                <li>Choose the type of event</li>
+                <li>Choose the date</li>
+                <li>Fill out the form below</li>
+            </ol>
+            <form>
+                <fieldset>
+                    <legend>Contact Details</legend>
+                    <label for="name">Name: </label><br>
+                    <input type="text" name="name" id="name" placeholder="Enter name" required><br> 
+                    <label for="email">E-mail: </label><br>
+                    <input type="email" name="email" id="email" placeholder="Enter e-mail" required><br>
+                    <label for="phone">Phone: </label><br>
+                    <input type="text" name="phone" id="phone" placeholder="Enter phone" required><br>
+                </fieldset>
+                <fieldset>
+                    <legend>Event info</legend>
+                    <label>Ocassion: </label><br>
+                    <select>
+                        <option disabled selected>Choose one</option>
+                        <option value="wedding">Wedding</option>
+                        <option value="baptism">Baptism</option>
+                        <option value="birthday anniversary">Birthday anniversary</option>
+                        <option value="private party">Private party</option>
+                        <option value="conporate event">Corporate event</option>
+                    </select><br>
+                    <label for="person">Person: </label><br>
+                    <input type="number" name="person" id="person" placeholder="Enter number of person" min="1" required><br> 
+                    <label for="event-date">Date: </label><br>
+                    <input type="date" name="event-date" id="event-date" min="2020-01-01" max="2030-12-31" required><br> 
+                    <label for="event-time">Time: </label><br>
+                    <input type="time" name="event-time" id="event-time" required><br> 
+                    <label for="message">Message: </label><br>
+                    <textarea rows="4" cols="50" name="message" id="message" placeholder="Enter message" required></textarea><br>
+                </fieldset>
+                <br>
+                <input type="submit" value="Submit" />
+            </form>
+        </section>
+    </main>
+    <footer>
+        <address>
+            <div>
+                <p><strong>Phone</strong></p>
+                <p>987.654.2695</p>
+            </div>
+            <div>
+                <p><strong>Address</strong></p>
+                <p>Fondamenta Zattere Al Ponte Lungo, 1473, 30123 Venice VE, Italy</p>
+            </div>
+            <div>
+                <p><strong>E-mail</strong></p>
+                <p>info@arcon.com</p>
+            </div>
+        </address>
+        <p>Copyright &copy; 2020 Arcon. All Rights Reserved.</p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
